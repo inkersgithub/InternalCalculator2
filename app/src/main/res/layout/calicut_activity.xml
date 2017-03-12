@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical" >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:hint="Series 1 Marks(Out of 50)"
+        android:id="@+id/s1"
+        android:inputType="number"
+        android:maxLength="2"
+        android:backgroundTint="#673AB7"
+        android:imeOptions="actionNext" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:hint="Assignment 1 Marks(Out of 45)"
+        android:backgroundTint="#673AB7"
+        android:inputType="number"
+        android:maxLength="2"
+        android:imeOptions="actionNext"
+        android:id="@+id/a1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:hint="Series 2 Marks(Out of 50)"
+        android:backgroundTint="#673AB7"
+        android:inputType="number"
+        android:maxLength="2"
+        android:imeOptions="actionNext"
+        android:id="@+id/s2" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:hint="Assignment 2 Marks(Out of 45)"
+        android:backgroundTint="#673AB7"
+        android:inputType="number"
+        android:maxLength="2"
+        android:imeOptions="actionNext"
+        android:id="@+id/a2" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:hint="Attendance percentage"
+        android:backgroundTint="#673AB7"
+        android:inputType="number"
+        android:maxLength="3"
+        android:imeOptions="actionDone"
+        android:id="@+id/at" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.10"
+        android:layout_gravity="center"
+        android:text="Calculate"
+        android:textColor="#E8EAF6"
+        android:onClick="onClickCalculate"
+        android:backgroundTint="#1A237E"
+        android:id="@+id/b1" />
+
+    <TextView
+        android:text="inkers.in"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_gravity="center"
+        android:id="@+id/textView" />
+</LinearLayout>

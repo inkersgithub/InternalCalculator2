@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingTop="80dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:text="With this app,
+        \n►You can calculate your internal mark.
+        \n►We will give you the best possible mark distribution,just click the 'CALCULATE' button leaving the columns blank.
+        \n►You can plan the required mark in upcoming exams/assignments by just leaving their column blank.
+        \n►You can calculate the required attendance percentage by leaving attendance column blank.
+        \n\nSelect your course from below list:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="@drawable/back"
+        android:typeface="sans"
+        android:textColor="#01579B"
+        android:textColorHint="#7E57C2"
+        android:textSize="15sp"
+        android:paddingBottom="25dp"
+        android:paddingLeft="8dp"
+        android:id="@+id/coursetv" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:entries="@array/course"
+        android:id="@+id/spinner"
+        android:backgroundTint="#01579B"
+        android:paddingBottom="15dp"
+        android:paddingTop="10dp"
+        android:spinnerMode="dialog" />
+
+    <Button
+        android:text="SUBMIT"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onOkClick"
+        android:gravity="center"
+        android:backgroundTint="#1A237E"
+        android:textColor="#E8EAF6"
+        android:id="@+id/btok" />
+</LinearLayout>

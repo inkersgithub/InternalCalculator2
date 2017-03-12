@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Internal Calculator</string>
+    <string-array name="course">
+        <item>Select your course</item>
+        <item>B.Tech(Calicut University 2014 scheme)</item>
+        <item>B.Tech(KTU)</item>
+        <item>MBBS(KUHS)</item>
+    </string-array>
+</resources>
