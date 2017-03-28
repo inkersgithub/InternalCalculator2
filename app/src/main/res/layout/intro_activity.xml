@@ -9,20 +9,20 @@
     android:paddingRight="16dp">
 
     <TextView
-        android:text="With this app,
-        \n►You can calculate your internal mark.
-        \n►We will give you the best possible mark distribution,just click the 'CALCULATE' button leaving the columns blank.
-        \n►You can plan the required mark in upcoming exams/assignments by just leaving their column blank.
+        android:text="With this app,\n
+        \n►You can calculate your internal mark.\n
+        \n►We will give you the best possible mark distribution,just click the 'CALCULATE' button leaving the columns blank.\n
+        \n►You can plan the required mark in upcoming exams/assignments by just leaving their column blank.\n
         \n►You can calculate the required attendance percentage by leaving attendance column blank."
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textStyle="bold"
-        android:background="@drawable/back"
         android:typeface="sans"
         android:textColor="#01579B"
         android:textColorHint="#7E57C2"
         android:textSize="15sp"
         android:paddingBottom="25dp"
+        android:paddingTop="25dp"
         android:paddingLeft="8dp"
         android:id="@+id/coursetv" />
 
@@ -34,6 +34,7 @@
         android:layout_height="wrap_content"
         android:onClick="onGoClick"
         android:gravity="center"
+        android:layout_marginTop="10dp"
         android:backgroundTint="#1A237E"
         android:textColor="#E8EAF6"
         android:id="@+id/btok" />
@@ -45,8 +46,7 @@
         android:typeface="sans"
         android:layout_height="0dp"
         android:layout_weight="0.5"
-        android:layout_gravity="center"
-        android:paddingTop="69dp"
+        android:layout_gravity="center|bottom"
         android:id="@+id/textView" />
 
 </LinearLayout>
