@@ -31,20 +31,6 @@
             android:label="B.Tech Calicut University">
         </activity>
 
-        <activity
-            android:name=".KtuActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".IntroActivity"
-            android:label="B.Tech KTU">
-        </activity>
-
-        <activity
-            android:name=".MbbsActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".IntroActivity"
-            android:label="MBBS KUHS">
-        </activity>
-
     </application>
 
 </manifest>
