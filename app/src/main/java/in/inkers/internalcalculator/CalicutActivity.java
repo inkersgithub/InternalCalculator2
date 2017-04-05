@@ -162,7 +162,7 @@ public class CalicutActivity extends AppCompatActivity {
                 else{
                     dtv.setText("Your current mark is " + (int) internal);
                     smtv.setText(":(");
-                    sa1bal.setVisibility(View.GONE);
+                    sa1bal.setText("Score 100% in everything left");
                     sa2bal.setText("May attendance marks save you :)");
                     as1bal.setVisibility(View.GONE);
                     as2bal.setVisibility(View.GONE);
@@ -187,7 +187,7 @@ public class CalicutActivity extends AppCompatActivity {
                 else{
                     dtv.setText("Your current mark is " + (int) internal);
                     smtv.setText(":(");
-                    sa1bal.setVisibility(View.GONE);
+                    sa1bal.setText("Score 100% in everything left");
                     sa2bal.setText("May attendance marks save you :)");
                     as1bal.setVisibility(View.GONE);
                     as2bal.setVisibility(View.GONE);
