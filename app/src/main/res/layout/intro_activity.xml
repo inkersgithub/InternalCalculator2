@@ -40,7 +40,7 @@
         android:id="@+id/btok" />
 
     <TextView
-        android:text="inkers.in"
+        android:text="inkers Inc."
         android:layout_width="wrap_content"
         android:textStyle="bold"
         android:typeface="sans"

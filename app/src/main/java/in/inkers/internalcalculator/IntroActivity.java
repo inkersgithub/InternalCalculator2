@@ -37,6 +37,7 @@ public class IntroActivity extends AppCompatActivity {
         // Handle item selection
         AlertDialog.Builder dialog = new AlertDialog.Builder(IntroActivity.this);
         View dView = getLayoutInflater().inflate(R.layout.activity_dialog, null);
+        TextView inkers = (TextView) dView.findViewById(R.id.textView);
         TextView dtv = (TextView) dView.findViewById(R.id.dtv);
         TextView smtv = (TextView) dView.findViewById(R.id.smtv);
         TextView sa1bal = (TextView) dView.findViewById(R.id.se1baltv);
@@ -49,6 +50,7 @@ public class IntroActivity extends AppCompatActivity {
         sa2bal.setVisibility(View.GONE);
         as1bal.setVisibility(View.GONE);
         as2bal.setVisibility(View.GONE);
+        inkers.setVisibility(View.GONE);
         Button btok = (Button) dView.findViewById(R.id.bt2);
         dialog.setView(dView);
         final AlertDialog adialog = dialog.create();
